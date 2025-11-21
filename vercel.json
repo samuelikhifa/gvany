@@ -1,0 +1,62 @@
+{
+  "version": 3,
+  "routes": [
+    { "handle": "filesystem" },
+
+    { "src": "/assets/(.*)", "dest": "/assets/$1" },
+
+    {
+      "src": "/lyx(.*)",
+      "dest": "/custom-clearing$1"
+    },
+    {
+      "src": "/lantique(.*)",
+      "dest": "/beverages$1"
+    },
+    {
+      "src": "/adret(.*)",
+      "dest": "/haulage-logistics$1"
+    },
+    {
+      "src": "/yorbax(.*)",
+      "dest": "/consultancy$1"
+    },
+    {
+      "src": "/sekiando(.*)",
+      "dest": "/real-estate$1"
+    },
+    {
+      "src": "/la-vie-est-belle(.*)",
+      "dest": "/agro-allied$1"
+    },
+
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ],
+  "rewrites": [
+    { "source": "/lyx/(.*)", "destination": "/custom-clearing/$1" },
+    { "source": "/lantique/(.*)", "destination": "/beverages/$1" },
+    { "source": "/adret/(.*)", "destination": "/haulage-logistics/$1" },
+    { "source": "/yorbax/(.*)", "destination": "/consultancy/$1" },
+    { "source": "/sekiando/(.*)", "destination": "/real-estate/$1" },
+    { "source": "/la-vie-est-belle/(.*)", "destination": "/agro-allied/$1" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Frame-Options", "value": "DENY" },
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" }
+      ]
+    },
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    }
+  ]
+}
