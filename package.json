@@ -19,8 +19,7 @@
     "robotstxt": "^0.0.4-7",
     "sitemap": "^9.0.0",
     "tailwind-merge": "^2.5.4",
-    "vite-plugin-html": "^3.2.2",
-    "react-helmet-async": "^2.0.4"
+    "vite-plugin-html": "^3.2.2"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
