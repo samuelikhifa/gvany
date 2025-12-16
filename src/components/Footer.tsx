@@ -11,23 +11,23 @@ const Footer = () => {
           {/* Company Info with Logo */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-3 mb-6">
-              <img 
-                src={gvanylogo} 
-                alt="GVANY Logo" 
+              <img
+                src={gvanylogo}
+                alt="GVANY Logo"
                 // className="w-12 h-12 object-contain rounded-lg p-1.5"
                 className="w-20 h-20 md:w-20 md:h-20 object-contain rounded-xl p-2"
               />
               <div>
-                
+
               </div>
             </div>
-            <p 
+            <p
               className="text-white/90 mb-4 font-semibold text-base"
               style={{ fontFamily: 'var(--font-heading)' }}
             >
               Sales and Distribution Company Limited
             </p>
-            <p 
+            <p
               className="text-white/80 text-sm leading-relaxed"
               style={{ fontFamily: 'var(--font-primary)' }}
             >
@@ -37,7 +37,7 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h4 
+            <h4
               className="text-lg font-bold mb-6 text-white"
               style={{ fontFamily: 'var(--font-heading)' }}
             >
@@ -45,8 +45,8 @@ const Footer = () => {
             </h4>
             <ul className="space-y-3">
               <li>
-                <Link 
-                  to="/" 
+                <Link
+                  to="/"
                   className="text-white/80 hover:text-[#E56732] transition-colors text-sm font-medium inline-flex items-center group"
                   style={{ fontFamily: 'var(--font-primary)' }}
                 >
@@ -54,8 +54,8 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link 
-                  to="/about" 
+                <Link
+                  to="/about"
                   className="text-white/80 hover:text-[#E56732] transition-colors text-sm font-medium inline-flex items-center group"
                   style={{ fontFamily: 'var(--font-primary)' }}
                 >
@@ -63,8 +63,8 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link 
-                  to="/services" 
+                <Link
+                  to="/services"
                   className="text-white/80 hover:text-[#E56732] transition-colors text-sm font-medium inline-flex items-center group"
                   style={{ fontFamily: 'var(--font-primary)' }}
                 >
@@ -72,8 +72,8 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link 
-                  to="/contact" 
+                <Link
+                  to="/contact"
                   className="text-white/80 hover:text-[#E56732] transition-colors text-sm font-medium inline-flex items-center group"
                   style={{ fontFamily: 'var(--font-primary)' }}
                 >
@@ -85,7 +85,7 @@ const Footer = () => {
 
           {/* Services */}
           <div>
-            <h4 
+            <h4
               className="text-lg font-bold mb-6 text-white"
               style={{ fontFamily: 'var(--font-heading)' }}
             >
@@ -93,10 +93,10 @@ const Footer = () => {
             </h4>
             <ul className="space-y-3">
               <li>
-                <a 
+                <a
                   href="/beverages"
                   target="_blank"
-                  rel="noopener noreferrer" 
+                  rel="noopener noreferrer"
                   className="text-white/80 hover:text-[#E56732] transition-colors text-sm font-medium inline-flex items-center group"
                   style={{ fontFamily: 'var(--font-primary)' }}
                 >
@@ -104,10 +104,10 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a 
+                <a
                   href="/haulage-logistics"
                   target="_blank"
-                  rel="noopener noreferrer" 
+                  rel="noopener noreferrer"
                   className="text-white/80 hover:text-[#E56732] transition-colors text-sm font-medium inline-flex items-center group"
                   style={{ fontFamily: 'var(--font-primary)' }}
                 >
@@ -115,10 +115,10 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a 
+                <a
                   href="/custom-clearing"
                   target="_blank"
-                  rel="noopener noreferrer" 
+                  rel="noopener noreferrer"
                   className="text-white/80 hover:text-[#E56732] transition-colors text-sm font-medium inline-flex items-center group"
                   style={{ fontFamily: 'var(--font-primary)' }}
                 >
@@ -126,10 +126,10 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a 
+                <a
                   href="/agro-allied"
                   target="_blank"
-                  rel="noopener noreferrer" 
+                  rel="noopener noreferrer"
                   className="text-white/80 hover:text-[#E56732] transition-colors text-sm font-medium inline-flex items-center group"
                   style={{ fontFamily: 'var(--font-primary)' }}
                 >
@@ -137,10 +137,10 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a 
+                <a
                   href="/real-estate"
                   target="_blank"
-                  rel="noopener noreferrer" 
+                  rel="noopener noreferrer"
                   className="text-white/80 hover:text-[#E56732] transition-colors text-sm font-medium inline-flex items-center group"
                   style={{ fontFamily: 'var(--font-primary)' }}
                 >
@@ -148,10 +148,10 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a 
+                <a
                   href="/consultancy"
                   target="_blank"
-                  rel="noopener noreferrer" 
+                  rel="noopener noreferrer"
                   className="text-white/80 hover:text-[#E56732] transition-colors text-sm font-medium inline-flex items-center group"
                   style={{ fontFamily: 'var(--font-primary)' }}
                 >
@@ -163,7 +163,7 @@ const Footer = () => {
 
           {/* Contact Info */}
           <div>
-            <h4 
+            <h4
               className="text-lg font-bold mb-6 text-white"
               style={{ fontFamily: 'var(--font-heading)' }}
             >
@@ -172,7 +172,7 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-[#E56732] flex-shrink-0 mt-0.5" />
-                <span 
+                <span
                   className="text-white/80 text-sm leading-relaxed"
                   style={{ fontFamily: 'var(--font-primary)' }}
                 >
@@ -182,22 +182,22 @@ const Footer = () => {
               </li>
               <li className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-[#E56732] flex-shrink-0" />
-                <a 
+                <a
                   href="tel:+234XXXXXXXXX"
                   className="text-white/80 hover:text-[#E56732] transition-colors text-sm"
                   style={{ fontFamily: 'var(--font-primary)' }}
                 >
-+234 081 0162 8455
+                  +234 090 2914 1004, +234 070 5427 0402
                 </a>
               </li>
               <li className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-[#E56732] flex-shrink-0" />
-                <a 
+                <a
                   href="mailto:info@gvany.com"
                   className="text-white/80 hover:text-[#E56732] transition-colors text-sm"
                   style={{ fontFamily: 'var(--font-primary)' }}
                 >
-                  emma.okodugha@gmail.com
+                  gvanysalesltd@gmail.com
                 </a>
               </li>
             </ul>
@@ -239,22 +239,22 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-white/20 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p 
+            <p
               className="text-white/70 text-sm text-center md:text-left"
               style={{ fontFamily: 'var(--font-primary)' }}
             >
               © {currentYear} GVANY Sales and Distribution Company Limited. All rights reserved.
             </p>
             <div className="flex gap-6">
-              <Link 
-                to="#" 
+              <Link
+                to="#"
                 className="text-white/70 hover:text-[#E56732] transition-colors text-sm"
                 style={{ fontFamily: 'var(--font-primary)' }}
               >
                 Privacy Policy
               </Link>
-              <Link 
-                to="#" 
+              <Link
+                to="#"
                 className="text-white/70 hover:text-[#E56732] transition-colors text-sm"
                 style={{ fontFamily: 'var(--font-primary)' }}
               >

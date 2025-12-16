@@ -45,9 +45,9 @@ const BEFooter = () => {
                         <h4 className="font-bold mb-4" style={{ fontFamily: 'var(--font-heading)' }}>Contact</h4>
                         <div className="space-y-3 text-sm">
                             <div className="flex items-start gap-2"><MapPin className="w-4 h-4 text-[#0289DC] flex-shrink-0 mt-0.5" /><span className="text-white/80" style={{ fontFamily: 'var(--font-primary)' }}>Lagos, Nigeria</span></div>
-                            <div className="flex items-start gap-2"><Phone className="w-4 h-4 text-[#0289DC] flex-shrink-0 mt-0.5" /><span className="text-white/80" style={{ fontFamily: 'var(--font-primary)' }}>+234 081 0162 8455</span></div>
+                            <div className="flex items-start gap-2"><Phone className="w-4 h-4 text-[#0289DC] flex-shrink-0 mt-0.5" /><span className="text-white/80" style={{ fontFamily: 'var(--font-primary)' }}>+234 070 7065 0040, +234 091 3011 2781</span></div>
 
-                            <div className="flex items-start gap-2"><Mail className="w-4 h-4 text-[#0289DC] flex-shrink-0 mt-0.5" /><span className="text-white/80" style={{ fontFamily: 'var(--font-primary)' }}>emma.okodugha@gmail.com
+                            <div className="flex items-start gap-2"><Mail className="w-4 h-4 text-[#0289DC] flex-shrink-0 mt-0.5" /><span className="text-white/80" style={{ fontFamily: 'var(--font-primary)' }}> gvanyenquiries@gmail.com
                             </span></div>
                         </div>
                     </div>

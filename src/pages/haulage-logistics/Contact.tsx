@@ -370,7 +370,7 @@ const Contact = () => {
                           className="text-sm text-white/90"
                           style={{ fontFamily: 'var(--font-primary)' }}
                         >
-                          emma.okodugha@gmail.com
+                           gvanyenquiries@gmail.com
                         </div>
                       </div>
                     </a>
@@ -391,7 +391,7 @@ const Contact = () => {
                           className="text-sm text-white/90"
                           style={{ fontFamily: 'var(--font-primary)' }}
                         >
-                          +234 081 0162 8455
+                         +234 091 3011 2781
                         </div>
                       </div>
                     </a>

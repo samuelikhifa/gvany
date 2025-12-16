@@ -112,7 +112,7 @@ const Navbar = () => {
                     className="text-sm font-medium hidden xl:block"
                     style={{ fontFamily: 'var(--font-primary)' }}
                   >
-                    +234 081 0162 8455
+                    +234 070 7065 0040
                   </span>
                 </a>
               </div>
@@ -267,7 +267,7 @@ const Navbar = () => {
                         className="text-sm"
                         style={{ fontFamily: 'var(--font-primary)' }}
                       >
-                        +234 081 0162 8455
+                        +234 070 7065 0040
                       </span>
                     </a>
                     <a 
@@ -279,7 +279,7 @@ const Navbar = () => {
                         className="text-sm"
                         style={{ fontFamily: 'var(--font-primary)' }}
                       >
-                        emma.okodugha@gmail.com
+                        gvanyenquiries@gmail.com
                       </span>
                     </a>
                   </div>

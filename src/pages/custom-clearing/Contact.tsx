@@ -133,7 +133,7 @@ const Contact = () => {
                     <form onSubmit={handleSubmit} className="space-y-6">
                       <div>
                         <label htmlFor="name" className="label">
-                          Full Name <span className="text-red-500">*</span>
+                          Full Name <span className="text-red-500"></span>
                         </label>
                         <input
                           type="text"
@@ -378,7 +378,7 @@ const Contact = () => {
                             className="text-sm text-white/90"
                             style={{ fontFamily: 'var(--font-primary)' }}
                           >
-                            emma.okodugha@gmail.com
+                             gvanyenquiries@gmail.com
                           </div>
                         </div>
                       </a>
@@ -399,7 +399,7 @@ const Contact = () => {
                             className="text-sm text-white/90"
                             style={{ fontFamily: 'var(--font-primary)' }}
                           >
-                            +234 081 0162 8455
+                            +234 070 7065 0040, +234 091 3011 3781
                           </div>
                         </div>
                       </a>

@@ -1,6 +1,6 @@
 // FOOTER
 import { Link } from 'react-router-dom'
-import {  Mail, Phone, MapPin } from 'lucide-react'
+import { Mail, Phone, MapPin } from 'lucide-react'
 import yas from '../../../assets/yas.png';
 const ConFooter = () => {
   return (
@@ -74,13 +74,12 @@ const ConFooter = () => {
               <div className="flex items-start gap-2">
                 <Phone className="w-4 h-4 text-[#01A5F9] flex-shrink-0 mt-0.5" />
                 <span className="text-white/80" style={{ fontFamily: 'var(--font-primary)' }}>
-                  +234 081 0162 8455
-                </span>
+                  +234 070 7065 0040, +234 091 3011 2781                </span>
               </div>
               <div className="flex items-start gap-2">
                 <Mail className="w-4 h-4 text-[#01A5F9] flex-shrink-0 mt-0.5" />
                 <span className="text-white/80" style={{ fontFamily: 'var(--font-primary)' }}>
-                  emma.okodugha@gmail.com
+                  gvanyenquiries@gmail.com
                 </span>
               </div>
             </div>

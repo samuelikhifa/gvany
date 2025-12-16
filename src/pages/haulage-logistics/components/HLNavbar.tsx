@@ -120,7 +120,7 @@ const HLNavbar = () => {
                     className="text-sm font-medium hidden xl:block"
                     style={{ fontFamily: 'var(--font-primary)' }}
                   >
-                    +234 081 0162 8455
+                    +234 091 3011 2781, +234 070 7065 0040
                   </span>
                 </a>
               </div>
@@ -253,7 +253,7 @@ const HLNavbar = () => {
                         className="text-sm"
                         style={{ fontFamily: 'var(--font-primary)' }}
                       >
-                        +234 XXX XXX XXXX
+                        +234 091 3011 2781
                       </span>
                     </a>
                     <a 
@@ -265,7 +265,7 @@ const HLNavbar = () => {
                         className="text-sm"
                         style={{ fontFamily: 'var(--font-primary)' }}
                       >
-                        info@adret.com
+                         gvanyenquiries@gmail.com
                       </span>
                     </a>
                   </div>

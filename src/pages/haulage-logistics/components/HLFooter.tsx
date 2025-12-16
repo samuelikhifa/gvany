@@ -121,7 +121,7 @@ const HLFooter = () => {
                   className="text-white/80 hover:text-[#01A5F9] transition-colors text-sm"
                   style={{ fontFamily: 'var(--font-primary)' }}
                 >
-                  +234 081 0162 8455
+                  +234 070 7065 0040, +234 091 3011 2781
                 </a>
               </li>
               <li className="flex items-center space-x-3">
@@ -131,7 +131,7 @@ const HLFooter = () => {
                   className="text-white/80 hover:text-[#01A5F9] transition-colors text-sm"
                   style={{ fontFamily: 'var(--font-primary)' }}
                 >
-                  emma.okodugha@gmail.com
+                   gvanyenquiries@gmail.com
                 </a>
               </li>
             </ul>
