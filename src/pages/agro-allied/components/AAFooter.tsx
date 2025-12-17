@@ -5,7 +5,8 @@ import e from '../../../assets/e.png';
 
 const AAFooter = () => {
   return (
-    <footer className="bg-gradient-to-br froms-[#D14E1F] to-[#E56732] text-white">
+    <footer className="bg-gradient-to-br from-[#D14E1F] to-[#E56732] text-white">
+
       <div className="max-w-7xl mx-auto px-4 py-12">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
@@ -45,8 +46,8 @@ const AAFooter = () => {
             <h4 className="font-bold mb-4" style={{ fontFamily: 'var(--font-heading)' }}>Contact</h4>
             <div className="space-y-3 text-sm">
               <div className="flex items-center gap-2"><MapPin className="w-4 h-4 text-[#DA9E1B]" /><span className="text-white/80" style={{ fontFamily: 'var(--font-primary)' }}>Lagos, Nigeria</span></div>
-              <div className="flex items-center gap-2"><Phone className="w-4 h-4 text-[#DA9E1B]" /><span className="text-white/80" style={{ fontFamily: 'var(--font-primary)' }}>+234 081 0162 8455</span></div>
-              <div className="flex items-center gap-2"><Mail className="w-4 h-4 text-[#DA9E1B]" /><span className="text-white/80" style={{ fontFamily: 'var(--font-primary)' }}>emma.okodugha@gmail.com</span></div>
+              <div className="flex items-center gap-2"><Phone className="w-4 h-4 text-[#DA9E1B]" /><span className="text-white/80" style={{ fontFamily: 'var(--font-primary)' }}></span>+234 070 7065 0040, +234 091 3011 2781</div>
+              <div className="flex items-center gap-2"><Mail className="w-4 h-4 text-[#DA9E1B]" /><span className="text-white/80" style={{ fontFamily: 'var(--font-primary)' }}>gvanyenquiries@gmail.com</span></div>
             </div>
           </div>
         </div>
